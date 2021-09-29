@@ -26,7 +26,7 @@ var arrayOfMarks = []
 var sumOfMarks = []
 
 sum = 0
-for (i= 0;i<2;i++){
+for (i= 0;i<5;i++){
   console.log(`student ${i}`)
   var name = readlineSync.question("what is your name? ")
   data[i].name =name
